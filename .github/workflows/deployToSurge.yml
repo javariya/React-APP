@@ -15,7 +15,9 @@ jobs:
       - name: Install packages
         run: npm install -g yarn
       - name: Build 
-        run: yarn build
+        run: |
+          yarn
+          yarn build
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
