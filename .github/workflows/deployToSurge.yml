@@ -13,9 +13,9 @@ jobs:
         with:
           node-version: 12
       - name: Install packages
-        run: npm install
-      - name: Build page
-        run: npm run build
+        run: npm install -g yarn
+      - name: Build 
+        run: yarn build
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
