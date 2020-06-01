@@ -19,5 +19,5 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ javariya_bootcamp_react.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ javariya-bootcamp-react.surge.sh --token ${{ secrets.SURGE_TOKEN }}
      
